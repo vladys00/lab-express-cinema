@@ -22,7 +22,7 @@ const movieSchema = new mongoose.Schema({
         type: String,
         required: [true, 'A movie needs a description']
     },
-    showtime: {
+    showtimes: {
         type: [String],
         required: [true, 'A movie neeeds a showtime']
     }
