@@ -55,3 +55,32 @@ a {
     
   }
 }
+
+#movie-details {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  #movie-poster {
+    display: flex;
+    margin: 15px;
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    align-items: center;
+    
+  }
+  #movie-info {
+    padding: 20px;
+    a {
+      margin: 5px;
+    }
+   
+    .showtime {
+      display: flex;
+      list-style: none;
+      padding: 0;
+    }
+
+  }
+}
